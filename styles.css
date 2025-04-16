@@ -1,0 +1,60 @@
+/* Universal Styling */
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F8F4E3;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #C08497;
+    background-color: #56203D;
+    border-color: #9b7984;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Home Page Styling */
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-color: #56203D;
+}
+
+.home-image-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.home-image {
+    border: 10px solid #C08497;
+    border-radius: 5px;
+    background-color: #56203D;
+    padding: 10px;
+}
+
+.home-button-links {
+    color: #56203D;
+    text-align: center;
+    text-decoration: none;
+    background-color: #C08497;
+    border-color: #56203D;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 8px;
+    transition: 0.5s ease;
+}
+
+.home-button-links:hover {
+    background-color: #56203D;
+    color:#F8F4E3; 
+}
+
+.home-buttons {
+    text-align: center;
+    margin: 18px;
+}
