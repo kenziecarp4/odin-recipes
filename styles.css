@@ -17,7 +17,8 @@ h1 {
 }
 
 a {
-    color: #56203D; 
+    color: #56203D;
+    text-decoration: none;
 }
 
 img {
